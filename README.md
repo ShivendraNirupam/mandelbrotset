@@ -3,7 +3,7 @@
 A mesmerizing visualization of the Mandelbrot Set using C++ and SDL2.  
 This project renders the intricate fractal pattern based on complex number iterations, bringing mathematical beauty to life through code.
 
-![Mandelbrot Set Output](./897633cd-258c-4d1b-a88b-b05c3c4cf513.png)
+![Mandelbrot Set Output](./mandelbrot.png)
 
 ---
 
