@@ -20,11 +20,9 @@ z_{n+1} = z_n^2 + c
   - \( c \in \mathbb{C} \) is a complex number (each pixel maps to one)
   - We iterate the formula and check whether the magnitude of \( z_n \) escapes to infinity.
 
-- A point \( c \) **belongs to the Mandelbrot Set** if:
-  
-\[
-\lim_{n \to \infty} |z_n| \leq 2
-\]
+- A point `c` belongs to the Mandelbrot Set if the limit of the sequence `zₙ = zₙ₋₁² + c` does not diverge.  
+- That is: `lim |zₙ| ≤ 2` as `n → ∞`.
+
 
 - In the code:
   - We compute up to 500 iterations.
